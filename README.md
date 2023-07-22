@@ -66,7 +66,6 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 This library is licensed under the CC-BY-NC-4.0 License.
 
 ## How to cite
-The paper introducing the experiments conducted with this code is forthcoming. In the interim, you can cite it as:
 ```
 @Inproceedings{Ozdayi2023,
  author = {Mustafa Ozdayi and Charith Peris and Jack G. M. FitzGerald and Christophe Dupuy and Jimit Majmudar and Haidar Khan and Rahil Parikh and Rahul Gupta},
