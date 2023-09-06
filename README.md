@@ -67,11 +67,26 @@ This library is licensed under the CC-BY-NC-4.0 License.
 
 ## How to cite
 ```
-@Inproceedings{Ozdayi2023,
- author = {Mustafa Ozdayi and Charith Peris and Jack G. M. FitzGerald and Christophe Dupuy and Jimit Majmudar and Haidar Khan and Rahil Parikh and Rahul Gupta},
- title = {Controlling the extraction of memorized data from large language models via Prompt-Tuning},
- year = {2023},
- url = {https://www.amazon.science/publications/controlling-the-extraction-of-memorized-data-from-large-language-models-via-prompt-tuning},
- booktitle = {ACL 2023},
+@inproceedings{ozdayi-etal-2023-controlling,
+    title = "Controlling the Extraction of Memorized Data from Large Language Models via Prompt-Tuning",
+    author = "Ozdayi, Mustafa  and
+      Peris, Charith  and
+      FitzGerald, Jack  and
+      Dupuy, Christophe  and
+      Majmudar, Jimit  and
+      Khan, Haidar  and
+      Parikh, Rahil  and
+      Gupta, Rahul",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-short.129",
+    doi = "10.18653/v1/2023.acl-short.129",
+    pages = "1512--1521",
+    abstract = "Large Language Models (LLMs) are known to memorize significant portions of their training data. Parts of this memorized content have been shown to be extractable by simply querying the model, which poses a privacy risk. We present a novel approach which uses prompt-tuning to control the extraction rates of memorized content in LLMs. We present two prompt training strategies to increase and decrease extraction rates, which correspond to an attack and a defense, respectively. We demonstrate the effectiveness of our techniques by using models from the GPT-Neo family on a public benchmark. For the 1.3B parameter GPT-Neo model, our attack yields a 9.3 percentage point increase in extraction rate compared to our baseline. Our defense can be tuned to achieve different privacy-utility trade-offs by a user-specified hyperparameter. We achieve an extraction rate reduction of up to 97.7{\%} relative to our baseline, with a perplexity increase of 16.9{\%}.",
+}
+
 }
 ```
